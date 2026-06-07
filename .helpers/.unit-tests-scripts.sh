@@ -1602,6 +1602,12 @@ _main() {
     #__test_file_nonempty "$output_file"
     #__test_file_empty "$std_output"
 
+    script_test="Document/PDF: Tools/PDF: Convert to grayscale"
+    __echo_script "$script_test"
+    bash "$ROOT_DIR/$script_test" "$input_file1" >"$std_output"
+    __test_file_nonempty "$output_file (grayscale).pdf"
+    __test_file_empty "$std_output"
+
     script_test="Document/PDF: Tools/PDF: Convert to PDFA-2b"
     __echo_script "$script_test"
     bash "$ROOT_DIR/$script_test" "$input_file1" >"$std_output"
