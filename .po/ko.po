@@ -1400,6 +1400,10 @@ msgid "PDF: Combine multiple PDFs"
 msgstr "PDF: 여러 PDF 결합"
 
 #: Menu
+msgid "PDF: Convert to grayscale"
+msgstr "PDF: 회색조로 변환"
+
+#: Menu
 msgid "PDF: Convert to PDFA-2b"
 msgstr "PDF: PDFA-2b로 변환"
 

@@ -1400,6 +1400,10 @@ msgid "PDF: Combine multiple PDFs"
 msgstr "PDF: Combinar múltiplos PDFs"
 
 #: Menu
+msgid "PDF: Convert to grayscale"
+msgstr "PDF: Converter para escala de cinza"
+
+#: Menu
 msgid "PDF: Convert to PDFA-2b"
 msgstr "PDF: Converter para PDFA-2b"
 

@@ -1400,6 +1400,10 @@ msgid "PDF: Combine multiple PDFs"
 msgstr "קובץ PDF: שילוב קובצי PDF מרובים"
 
 #: Menu
+msgid "PDF: Convert to grayscale"
+msgstr "PDF: המר לגווני אפור"
+
+#: Menu
 msgid "PDF: Convert to PDFA-2b"
 msgstr "קובץ PDF: המרה לקובץ PDFA-2b"
 
