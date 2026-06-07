@@ -29,7 +29,7 @@ _main_task() {
     output_file=$(_get_output_filename "$input_file" "$output_dir" "par_extension_opt=preserve; par_suffix='(PDFA-2b)'")
 
     # Run the main process.
-    std_output=$(gs -q -dNOPAUSE -dBATCH -dPDFA=2 -dPDFACompatibilityPolicy=1 -sColorConversionStrategy=UseDeviceIndependentColor -sDEVICE=pdfwrite -sOutputFile="$output_file" -- "$input_file" 2>&1)
+    std_output=$(gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dPDFA=2 -dPDFACompatibilityPolicy=1 -sColorConversionStrategy=UseDeviceIndependentColor -sOutputFile="$output_file" -- "$input_file" 2>&1)
     _check_output "$?" "$std_output" "$input_file" "$output_file" || return 1
 }
 
